@@ -1,0 +1,116 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #39b4e0;
+    color: #f96a1b;
+    padding: 0.7rem 0.7rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    display: block;
+}
+
+.objmenu {
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 0.5rem 0.5rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li:hover {
+    background-color: #f96a1b;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+section article h2,
+section article p {
+    margin: 1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #3088a2;
+    padding: 2rem;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-right: 2.3rem;
+}
+
+footer .buttons {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: 0.3s ease;
+    color: white;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-right: 1.5rem;
+}
+
+footer a:hover {
+    color: #f96a1b;
+}
+
+footer .buttons:hover {
+    transform: scale(1.8);
+}

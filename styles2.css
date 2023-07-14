@@ -48,8 +48,8 @@ header h1 {
 }
 
 .container {
-    width: 400px;
-    margin: 0 auto;
+    width: 50%;
+    margin: 1rem;
 }
 
 section article {

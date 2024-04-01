@@ -7,32 +7,36 @@ html {
 body {
     margin: 0;
     margin-bottom: 40px;
-    background-color: #efefef;
+    background-color: #0c0d12; /* Azul oscuro */
+    color: #a6b2c1; /* Gris claro para el texto */
 }
 
 header {
-    background-color: #39b4e0;
-    color: #f96a1b;
+    background-color: #2b3246; /* Azul grisáceo */
+    color: #a6b2c1; /* Gris claro */
     padding: 0.7rem 0.7rem;
 }
 
 header h1 {
     font-size: 2.5rem;
     text-align: center;
+    color: #FFFFFF; /* Blanco para el título */
 }
 
 .menu {
     list-style: none;
     width: 100%;
-    background-color: black;
+    background-color: #1e222f; /* Azul grisáceo más oscuro */
     margin: auto;
+    overflow-x: auto; /* Agregamos esta propiedad */
+    white-space: nowrap; /* Evita que los elementos se envuelvan */
 }
 
 .menu li a {
     text-decoration: none;
-    color: white;
-    padding: 0.5rem;
-    display: block;
+    color: #FFFFFF; /* Blanco para los enlaces */
+    padding: 0.5rem 1rem; /* Ajustamos el relleno para agregar margen */
+    display: inline-block; /* Cambiamos a inline-block para evitar envolver */
 }
 
 .objmenu {
@@ -43,8 +47,9 @@ header h1 {
     text-align: center;
 }
 
+
 .menu li:hover {
-    background-color: #f96a1b;
+    background-color: #2b3246; /* Azul grisáceo más claro */
 }
 
 .container {
@@ -54,7 +59,7 @@ header h1 {
 
 section article {
     transition: box-shadow 0.3s ease;
-    background-color: #fff;
+    background-color: #191c24; /* Azul grisáceo más oscuro */
     margin: 1rem 0;
     border-radius: 0.5rem;
     padding: 0.25rem 0;
@@ -68,15 +73,16 @@ section article:hover {
 section article h2,
 section article p {
     margin: 1rem;
+    color: #FFFFFF; /* Blanco para el texto dentro de los artículos */
 }
 
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #3088a2;
+    background-color: #2b3246; /* Azul grisáceo más claro */
     padding: 2rem;
-    color: white;
+    color: #FFFFFF; /* Blanco para el texto del pie de página */
 }
 
 footer section {
@@ -89,7 +95,7 @@ footer p {
 
 footer a {
     transition: color 0.3s ease;
-    color: white;
+    color: #FFFFFF; /* Blanco para los enlaces del pie de página */
     text-decoration: none;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -100,7 +106,7 @@ footer .buttons {
     width: 1.5rem;
     height: 1.5rem;
     transition: 0.3s ease;
-    color: white;
+    color: #FFFFFF; /* Blanco para los botones del pie de página */
     text-decoration: none;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
@@ -108,7 +114,7 @@ footer .buttons {
 }
 
 footer a:hover {
-    color: #f96a1b;
+    color: #a6b2c1; /* Gris claro al pasar el ratón sobre los enlaces del pie de página */
 }
 
 footer .buttons:hover {
